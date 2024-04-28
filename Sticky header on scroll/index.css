@@ -1,0 +1,48 @@
+
+h1 {
+	font-size: 3em;
+	margin-bottom: 0;
+}
+h5{
+    position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    background-color:black;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: top 0.3s;
+  }
+  .content {
+  padding-top: 60px; 
+  height: 1500px; 
+  background-image: url('/sky.jpg');
+  background-size: contain;
+  background-position: center;
+  position: relative;
+  z-index: 1; 
+}
+
+.text {
+  position: relative;
+  z-index: 2;
+  padding: 20px;
+  color: #294bf3;
+  margin-left: 500px;
+}
+  
+ 
+  .header.sticky {
+    top: -50px; /
+  }
